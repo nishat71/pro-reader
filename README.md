@@ -1,4 +1,4 @@
-# proReader Starter Repository
+# proReader Repository
 
 A simple React app built with React & React Router Dom.
 
