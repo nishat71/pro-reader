@@ -118,7 +118,7 @@ const Header = () => {
                           <rect x='14' y='1' width='7' height='6' />
                           <rect x='14' y='11' width='7' height='12' />
                         </svg>
-                        <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>proReader</span>
+                        <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>proReaderr</span>
                       </Link>
                     </div>
                     <div>

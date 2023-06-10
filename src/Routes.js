@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     //ErrorPage event bubble er moto kaj kore error kujte take kun jaygay ase , j jaygay pay shey jaygay dekay dey, tai sb jaygay likha lage na
     children: [
       {
-        path: "/",
+        path: "/", // index:true,
         element: <Home />
       },
       {

@@ -5,8 +5,11 @@ import { Link } from 'react-router-dom'
 const Book = ({ book }) => {
   const { isbn13, image, title, subtitle, price } = book
   return (
-    <Link to={`../book/${isbn13}`} aria-label='View Item'>
-     {/* <Link to={`/book/${isbn13}`} aria-label='View Item'> */}
+    // <Link to={`../book/${isbn13}`} aria-label='View Item'> 
+    <Link to={`/book/${isbn13}`} aria-label='View Item'>
+
+
+
       <div className='relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl'>
         <img
           className='object-cover w-full h-56 md:h-64 xl:h-80'
@@ -26,3 +29,8 @@ const Book = ({ book }) => {
 }
 
 export default Book
+
+/*
+ <Link to={`../book/${isbn13}`}
+ books folder teke ber hoye book e duktese
+*/
